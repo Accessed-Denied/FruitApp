@@ -35,6 +35,26 @@ struct SettingsView: View {
                     }
                     
                     // MARK: - SECTION 2
+                    GroupBox(label: HStack {
+                        SettingsLabelView(labelText: "Application", lableImage: "apps.iphone")
+                    }) {
+                        
+                        SettingsRowView(name: "Developer", content: "Rohit Siani")
+                        
+                        SettingsRowView(name: "Designer", content: "Robert Petras")
+                        
+                        SettingsRowView(name: "Compatibility", content: "iOS 14")
+                        
+                        SettingsRowView(name: "Website", linkLabel: "SwiftUI Master class",linkDestination: "swiftuimasterclass.com")
+                        
+                        SettingsRowView(name: "instagram", linkLabel: "@rohitsainier",linkDestination: "rohitsainier")
+                        
+                        SettingsRowView(name: "SwiftUI",content: "2.0")
+                        
+                        SettingsRowView(name: "Version",content: "1.1.0")
+                        
+                    }
+                    
                     
                     // MARK: - SECTION 3
                     
